@@ -1,0 +1,20 @@
+title Bug Wrangler Ranch
+
+note right of main: initialize "cattleToDrive" variable as '50'
+main->drovers: invoke hireDrovers() to hire the right amount of drovers
+main<--drovers: return the information of the drovers
+main->cattle: invoke roundup() to get cattle types
+main<--cattle:return "cattleToDrive" number of cattle types 
+main->journey: invoke journeyMaker() to create journey
+main<--journey: return terrain types
+note right of main:print logo and cattle text image
+note right of main:print message including \nlength of drovers array\nand number of cattle to drive
+note right of main: print message about herd\ncattle types
+note right of main:print appropriate number of\nrandomized breeds
+note right of main: print "here's the team" message
+loop
+note right of main: print each drover on individual line
+end
+loop
+note right of main: print each terrain on individual line
+end
